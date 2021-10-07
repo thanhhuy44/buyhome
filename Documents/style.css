@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.fl-right{
+    float: right;
+}
+.fl-left{
+    float: left;
+}
+.row {
+    margin-bottom: 16px;
+    margin-left: -8px;
+    margin-right: -8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.col{
+    float: left;
+    padding: 0 8px;
+}
+.col-4{
+    width: 25%;
+}
+
+/* header css */
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 54px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%);
+    z-index: 1;
+}
+#nav{
+    padding: 8px 16px;
+}
+
+#nav div{
+    display: inline-block;
+}
+#nav div a{
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    letter-spacing: 4px;
+    color: #000;
+}
+#nav div a:hover{
+    background-color: #ccc;
+    color: #000;
+}
+
+
+/* slider css */
+#slider {
+    position: relative;
+    width: 100%;
+    padding-top: 50%;
+    background: url(/BR_Architects/assents/img/slider/architect.jpg) top center / cover no-repeat;
+}
+#slider .slider-text{
+    position: absolute;
+    margin-top: 16px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    letter-spacing: 4px;
+    font-weight: 300;
+}
+#slider .slider-text b{
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+    opacity: 0.7;
+}
+#slider .slider-text span{
+    color: #fff;
+    font-weight: 400px;
+}
+/* content css */
+.section{
+    padding: 8px 16px;
+}
+.content-section{
+    padding: 32px 16px;
+}
+.section-heading{
+    margin: 10px 0;
+    padding: 16px 0;
+    border-bottom: 1px solid #ccc;
+    font-weight: 400;
+    font-size: 23px;
+}
+/* project-content css */
+.project-list{
+    position: relative;
+    padding: 0 16px;
+}
+.project-item .project-img{
+    width: 100%;
+}
+.project-item .project-name{
+    position: absolute;
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+}
+
+/* about-content css */
+.about-section .about-content{
+    margin: 15px 0;
+    text-align: justify;
+}
+
+.about-img{
+    display: block;
+    width: 100%;
+}
+.about-name{
+    margin: 10px 0;
+    font-weight: 400;
+}
+.name-sub{
+    margin: 15px 0;
+    opacity: 0.6;
+}
+.name-desc{
+    margin: 15px 0;
+}
+.about-btn{
+    width: 100%;
+    padding: 8px 16px;
+    text-transform: uppercase;
+    border: none;
+    background-color: #f1f1f1;
+}
+.about-btn:hover{
+    background-color: #ccc;
+}
+/* contact content css */
+.contact-content{
+    margin: 15px 0;
+}
+.contact-input{
+    display: block;
+    width: 100%;
+    margin: 16px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+.contact-btn{
+    margin: 16px 0;
+    padding: 8px 16px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+}
+.contact-btn:hover{
+    background-color: #ccc;
+    color: #000;
+}
+/* map content css */
+.map-section{
+    padding: 0 -8px;
+}
+.content-map{
+    width: 100%;
+}
+
+/* footer css */
+#footer .footer-content{
+    height: 84px;
+    background-color: #000;
+}
+.footer-content p{
+    text-align: center;
+    line-height: 84px;
+    color: #fff;
+}
+.footer-content a{
+    color: #fff;
+}

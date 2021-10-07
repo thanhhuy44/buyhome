@@ -1,0 +1,44 @@
+@media only screen and (max-width: 46.1875em) {
+    #nav .menu-right {
+        display: none;
+    }
+    .slider-text p{
+        display: flex;
+        align-items: center;
+        font-size: 24px;
+    }
+    .col-4{
+        width: 100%;
+        margin-bottom: 48px;
+    }
+
+    .about-btn{
+        font-size: 16px;
+        height: 36px;
+    }
+    .contact-btn{
+        width: 100%;
+        font-size: 16px;
+    }
+    .map-section {
+        margin-top: 36px;
+    }
+    .content-section{
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .col-4{
+        width: 50%;
+        margin-bottom: 40px;
+    }
+    .contact-btn{
+        float: right;
+        width: 30%;
+        font-size: 16px;
+    }    
+    .map-section {
+        margin-top: 36px;
+    }
+}
