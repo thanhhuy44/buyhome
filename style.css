@@ -70,7 +70,7 @@ html {
     position: relative;
     width: 100%;
     padding-top: 50%;
-    background: url(/BR_Architects/assents/img/slider/architect.jpg) top center / cover no-repeat;
+    background: url(architect.jpg) top center / cover no-repeat;
 }
 #slider .slider-text{
     position: absolute;
